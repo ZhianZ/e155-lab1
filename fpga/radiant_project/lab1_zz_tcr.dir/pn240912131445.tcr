@@ -1,6 +1,0 @@
-#Start recording tcl command: 9/12/2024 13:14:26
-#Project Location: C:/LatticeRadiantDesign/lab1_zz; Project name: lab1_zz
-prj_open "C:/LatticeRadiantDesign/lab1_zz/lab1_zz.rdf"
-prj_save 
-prj_close
-#Stop recording: 9/12/2024 13:14:45

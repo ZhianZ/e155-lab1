@@ -1,8 +1,0 @@
-#Start recording tcl command: 9/24/2024 16:40:59
-#Project Location: C:/LatticeRadiantDesign/lab1_zz; Project name: lab1_zz
-prj_open "C:/LatticeRadiantDesign/lab1_zz/lab1_zz.rdf"
-prj_add_source "C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv"
-prj_syn_sim_source -src "C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv" SimulateOnly
-prj_run PAR -impl impl_1
-prj_run Export -impl impl_1
-#Stop recording: 9/24/2024 17:08:59
