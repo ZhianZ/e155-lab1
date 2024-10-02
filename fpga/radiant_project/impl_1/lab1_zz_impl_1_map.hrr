@@ -1,0 +1,29 @@
+---------------------------------------------------
+Report for cell lab1_top
+   Instance path: lab1_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         25        100.0
+                               LUTGATE	         11        100.0
+                                LUTCCU	         14        100.0
+                                 IOBUF	         15        100.0
+                                PFUREG	         12        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                         clock_divider	          1        56.0
+                     seven_seg_decoder	          1        28.0
+---------------------------------------------------
+Report for cell clock_divider
+   Instance path: lab1_top/inst2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         14        56.0
+                                LUTCCU	         14        100.0
+                                PFUREG	         12        100.0
+---------------------------------------------------
+Report for cell seven_seg_decoder
+   Instance path: lab1_top/inst1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7        28.0
+                               LUTGATE	          7        63.6

@@ -1,0 +1,1 @@
+C:/lscc/radiant/2024.1/questasim/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 393216 work.seven_seg_decoder_tb -quiet -auto_acc_if_foreign -work work +acc -allow_unnamed -o _opt2 -id 1-5c60bae054e0-66f4c9b8-29b-9378 +__design_bin_path+C:/LatticeRadiantDesign/lab1_zz +__betafsm

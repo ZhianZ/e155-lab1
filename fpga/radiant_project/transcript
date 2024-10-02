@@ -1,0 +1,89 @@
+# Reading pref.tcl
+# //  Questa Lattice OEM Edition-64
+# //  Version 2024.2 win64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vsim work.clock_divider
+# vsim work.clock_divider 
+# Start time: 19:38:09 on Sep 25,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.clock_divider(fast)
+vlog -reportprogress 300 -work work C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv
+# Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:38:57 on Sep 25,2024
+# vlog -reportprogress 300 -work work C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv 
+# -- Compiling module seven_seg_decoder_tb
+# 
+# Top level modules:
+# 	seven_seg_decoder_tb
+# End time: 19:38:57 on Sep 25,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv
+# Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:39:00 on Sep 25,2024
+# vlog -reportprogress 300 -work work C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv 
+# -- Compiling module seven_seg_decoder_tb
+# 
+# Top level modules:
+# 	seven_seg_decoder_tb
+# End time: 19:39:00 on Sep 25,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv
+# Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:39:10 on Sep 25,2024
+# vlog -reportprogress 300 -work work C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv 
+# -- Compiling module seven_seg_decoder_tb
+# 
+# Top level modules:
+# 	seven_seg_decoder_tb
+# End time: 19:39:11 on Sep 25,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim clock_divider_tb.sv
+# End time: 19:39:54 on Sep 25,2024, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 0
+# vsim clock_divider_tb.sv 
+# Start time: 19:39:54 on Sep 25,2024
+# ** Error (suppressible): (vsim-19) Failed to access library 'clock_divider_tb' at "clock_divider_tb".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 19:39:54 on Sep 25,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.seven_seg_decoder_tb
+# vsim work.seven_seg_decoder_tb 
+# Start time: 19:40:29 on Sep 25,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.seven_seg_decoder_tb(fast)
+vsim work.seven_seg_decoder_tb -voptargs=+acc
+# End time: 19:40:56 on Sep 25,2024, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim work.seven_seg_decoder_tb -voptargs="+acc" 
+# Start time: 19:40:56 on Sep 25,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.seven_seg_decoder_tb(fast)
+# Loading work.clock_divider(fast)
+add wave -position end  sim:/seven_seg_decoder_tb/s
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Zhian Zhou  Hostname: LAPTOP-AF013AE3  ProcessID: 37884
+#           Attempting to use alternate WLF file "./wlft22k08k".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft22k08k
+add wave -position end  sim:/seven_seg_decoder_tb/dut/led
+add wave -position end  sim:/seven_seg_decoder_tb/dut/clk
+run 10000
+# End time: 19:41:52 on Sep 25,2024, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 3

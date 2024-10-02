@@ -1,0 +1,176 @@
+m255
+K4
+z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+Z2 !s12c _opt1
+R1
+R0
+R1
+R2
+R1
+Z3 !s12c _opt
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 dC:/LatticeRadiantDesign/lab1_zz
+T_opt
+!s110 1726181318
+VYb6g<TC6mKS9eLI>L=4C30
+Z5 04 20 4 work seven_seg_decoder_tb fast 0
+=1-5c60bae054e0-66e36fc6-239-93fc
+R1
+Z6 !s12f OEM25U2 
+Z7 !s12b OEM100
+Z8 !s124 OEM100
+Z9 !s135 nogc
+Z10 o-quiet -auto_acc_if_foreign -work work +acc
+Z11 tCvgOpt 0
+n@_opt
+Z12 OL;O;2024.2;79
+R4
+T_opt1
+!s110 1727318430
+VikbO_ziR55YK_zK_5f1?c2
+R5
+=1-5c60bae054e0-66f4c99e-95-9bf4
+R1
+R6
+R7
+R8
+R9
+o-quiet -auto_acc_if_foreign -work work
+R11
+n@_opt1
+R12
+R4
+T_opt2
+!s110 1727318457
+VD=::R^>RX74S=iGF`ERFZ0
+R5
+=1-5c60bae054e0-66f4c9b8-29b-9378
+R1
+R6
+R7
+R8
+R9
+R10
+R11
+n@_opt2
+R12
+vclock_divider
+2C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider.sv
+Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1727222763
+!i10b 1
+!s100 0@ed8SDeN=HM5JfJmGG`F2
+IVBcmRzV<PJjS_JeZW?8433
+S1
+R4
+Z14 w1726705761
+8C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider.sv
+FC:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider.sv
+!i122 19
+L0 7 20
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+Z16 OL;L;2024.2;79
+r1
+!s85 0
+31
+!s108 1727222763.000000
+!s107 C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider.sv|
+!s90 -reportprogress|300|-work|work|C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider.sv|
+!i113 0
+Z17 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R11
+vlab1_zz
+R13
+!s110 1725919506
+!i10b 1
+!s100 e@6gQ48FRaQ6^SY4nn3010
+IHS^D1AC785ahaD0ZM=zHh3
+S1
+R4
+w1725919404
+8C:/LatticeRadiantDesign/lab1_zz/source/impl_1/lab1_zz.sv
+FC:/LatticeRadiantDesign/lab1_zz/source/impl_1/lab1_zz.sv
+!i122 3
+L0 8 23
+R15
+R16
+r1
+!s85 0
+31
+!s108 1725919506.000000
+!s107 C:/LatticeRadiantDesign/lab1_zz/source/impl_1/lab1_zz.sv|
+!s90 -reportprogress|300|-work|work|C:/LatticeRadiantDesign/lab1_zz/source/impl_1/lab1_zz.sv|
+!i113 0
+R17
+R11
+vseven_seg_decoder
+2C:/LatticeRadiantDesign/lab1_zz/source/impl_1/seven_seg_decoder.sv
+R13
+!s110 1727222764
+!i10b 1
+!s100 2XPcVjXUgHemFo0d_lG[13
+IRXE1f[BG[1aAJ?ijn;TIT0
+S1
+R4
+R14
+8C:/LatticeRadiantDesign/lab1_zz/source/impl_1/seven_seg_decoder.sv
+FC:/LatticeRadiantDesign/lab1_zz/source/impl_1/seven_seg_decoder.sv
+!i122 22
+L0 7 28
+R15
+R16
+r1
+!s85 0
+31
+!s108 1727222764.000000
+!s107 C:/LatticeRadiantDesign/lab1_zz/source/impl_1/seven_seg_decoder.sv|
+!s90 -reportprogress|300|-work|work|C:/LatticeRadiantDesign/lab1_zz/source/impl_1/seven_seg_decoder.sv|
+!i113 0
+R17
+R11
+vseven_seg_decoder_tb
+2C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv
+R13
+!s110 1727318351
+!i10b 1
+!s100 U>Zd:X3;gJC2?iNb9WoPB1
+I2gWlj^k>5`f_e]WN8TYeX0
+S1
+R4
+w1727221993
+8C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv
+FC:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv
+!i122 26
+L0 11 26
+R15
+R16
+r1
+!s85 0
+31
+!s108 1727318350.000000
+!s107 C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/LatticeRadiantDesign/lab1_zz/source/impl_1/clock_divider_tb.sv|
+!i113 0
+R17
+R11

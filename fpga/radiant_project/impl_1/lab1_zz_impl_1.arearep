@@ -1,0 +1,31 @@
+----------------------------------------------------------------------
+Report for cell lab1_top.TECH
+Register bits:  12 of 5280 (0.227%)
+I/O cells:      15
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2         7          100.0
+                            FD1P3XZ        12          100.0
+                                 IB         5          100.0
+                         LSOSC_CORE         1          100.0
+                               LUT4        10          100.0
+                                 OB        10          100.0
+SUB MODULES
+                      clock_divider         1
+                  seven_seg_decoder         1
+                              TOTAL        47
+----------------------------------------------------------------------
+Report for cell clock_divider.v1
+Instance Path : inst2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2         7          100.0
+                            FD1P3XZ        12          100.0
+                              TOTAL        19
+----------------------------------------------------------------------
+Report for cell seven_seg_decoder.v1
+Instance Path : inst1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           70.0
+                              TOTAL         7
